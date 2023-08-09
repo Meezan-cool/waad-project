@@ -2,3 +2,17 @@
   margin: 0;
   padding: 0;
 }
+.App{
+  height: 200vh;
+  
+}
+.background{
+  height: 100vh;
+  background: url('./Images/Untitled\ design\ \(1\).png');
+  background-position: center;
+  background-size: cover;
+}
+.back2{
+  height: 100vh;
+  background: #593573;
+}
