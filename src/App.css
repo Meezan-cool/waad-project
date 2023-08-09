@@ -1,18 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
 *{
   margin: 0;
   padding: 0;
 }
 .App{
+  margin: 0%;
+  padding:0% ;
   height: 200vh;
   
 }
 .background{
   height: 100vh;
-  background: url('./Images/Untitled\ design\ \(1\).png');
+  background: url('./Images/main.jpg');
   background-position: center;
   background-size: cover;
 }
 .back2{
   height: 100vh;
   background: #593573;
+}
+.navbar{
+  border: 1px solid white;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navhead{
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 1.8rem;
+  font-family: 'Borel', cursive;
+}
+.btn{
+  color:black;
+  background-color: white;
+  border-radius: 25px;
+  width:10%;
+  border: none;
+  padding: 10px;
+
 }
